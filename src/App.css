@@ -1,0 +1,48 @@
+.ProductImage{
+  height: 80px;
+  width: 80px;
+}
+.productdata{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.Order{
+  background-color: blue;
+  color: white;
+  margin: 20px;
+}
+.Responses{
+  background-color:rgb(44, 148, 44);
+  
+}
+.responsitem{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  color: white;
+}
+.MobileNo{
+  padding: 10px;
+}
+.productitem{
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+}
+.checkbox{
+  width: 30px;
+  height: 30px;
+}
+.orderItem{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.responsitem{
+  font-size: 20px;
+}
+.Responses{
+  border: 2px solid white;
+}
