@@ -37,7 +37,7 @@ function CheckResponse(props){
     }
    async function Sendresponse(type){
     console.log(type)
-        await axios.put(`https://my-meesho-frontend.vercel.app/Meesho/updateOrderResponse/${props.MobileNO}/${type}`);
+        await axios.put(`https://meesho-backend-lake.vercel.app/Meesho/updateOrderResponse/${props.MobileNO}/${type}`);
 
     }
 
