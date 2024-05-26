@@ -12,7 +12,7 @@ function App() {
    
   },[])
   async function getdata(){
-    const data = await axios.get('https://purple-journalist-dmoxo.pwskills.app:5000/Meesho/ShowOrder');
+    const data = await axios.get('https://my-meesho-frontend.vercel.app/Meesho/ShowOrder');
     setorderData(data.data);
     console.log(data.data)
   }
