@@ -12,7 +12,7 @@ function App() {
    
   },[])
   async function getdata(){
-    const data = await axios.get('https://meesho-backend-lake.vercel.app/Meesho/ShowOrder');
+    const data = await axios.get('https://meesho-backend-psi.vercel.app/Meesho/ShowOrder');
     setorderData(data.data);
     console.log(data.data)
   }
